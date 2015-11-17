@@ -6,7 +6,7 @@ Coursera Developing Data Products PA
 
 ### Submissions - Sample Size Calculatorfor Web A/B Testing
 - [1st. Shiniy App on shinyapps.io]()
-- [2nd. Slidify Presentation on gh-pages]()
+- [2nd. Slidify Presentation on Rpubs]()
 
 ### Overview
 
@@ -88,4 +88,6 @@ Rstudio presenter has a button to publish directly to Rpubs [https://support.rst
 - [ ] There were no R errors displayed in the presentation.
 - [ ] If any of your grading decisions require explanation, please note your explanations here.
 
-
+### Appendix
+1. [shinyapps.io by RStudio](https://www.shinyapps.io/)
+2. [RPubs  brought to you by RStudio](http://rpubs.com/)
