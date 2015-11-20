@@ -16,14 +16,18 @@ sidebarLayout(
                      min = .001, max = .999, step = .1),
         
         radioButtons("mde_type", "MDE type:" ,
-                     c("Absolute" = "abs", "Relative" = "rel"),
+                     c("Absolute" = "abs", "Relative" = "rltv"),
                      selected = "abs", inline = TRUE),
         
         sliderInput("sig_level", "Significance level α:",
                     min = 0, max = 1, value = .05, step = .01),
         
         sliderInput("pwr_level", "Statistical power 1−β:",
-                    min = 0, max = 1, value = .8, step = .01)
+                    min = 0, max = 1, value = .8, step = .01),
+        
+        em("If you can see Error Messages at Sample Size area,
+           It may come from R. Please see `power.prop.test` in R help.")
+        
     ),
 
     # Show reactively the Calculated Sample Size, the Bar Chart
@@ -38,6 +42,7 @@ sidebarLayout(
         
         # Show Bar Chart
         plotOutput("bar_chart",height = "300px")
+        
     )
 )
 ))
