@@ -78,16 +78,19 @@ Rstudio presenter has a button to publish directly to Rpubs [https://support.rst
 
 *Note: this section can only be filled out during the evaluation phase.*  
 
-- [ ] Was the presentation completed in slidify or R Presenter?
-- [ ] Was it 5 pages?
-- [ ] Did it contain an R expression that got evaluated and displayed?
-- [ ] Was it hosted on github or Rpubs?
--  [ ] Was the presentation actually a presentation? (I.e. it had a legitimate pitch for the shiny application?)
-- [ ] Here's your opportunity to give this presentation a +1 for being well done. Did they tinker around with the default style?
-- [ ] Was the presentation particularly lucid and well organized? In other words, the student made a legitimate try.
-- [ ] There were no R errors displayed in the presentation.
-- [ ] If any of your grading decisions require explanation, please note your explanations here.
+- [x] Was the presentation completed in slidify or R Presenter?
+- [x] Was it 5 pages?
+- [x] Did it contain an R expression that got evaluated and displayed?
+- [x] Was it hosted on github or Rpubs?
+-  [x] Was the presentation actually a presentation? (I.e. it had a legitimate pitch for the shiny application?)
+
+>- [ ] Here's your opportunity to give this presentation a +1 for being well done. Did they tinker around with the default style?
+
+- [x] Was the presentation particularly lucid and well organized? In other words, the student made a legitimate try.
+- [x] There were no R errors displayed in the presentation.
+
+>- [ ] If any of your grading decisions require explanation, please note your explanations here.
 
 ### Appendix
 * [shinyapps.io by RStudio](https://www.shinyapps.io/)
-* [Github Pages(gh-pages docs)](https://pages.github.com/)
+* [Github Pages (gh-pages docs)](https://pages.github.com/)
