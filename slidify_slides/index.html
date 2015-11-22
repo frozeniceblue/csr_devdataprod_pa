@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web A/B Testing Simple Sample Size Calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Web A/B Testing Simple Sample Size Calculator">
+  <meta name="author" content="hajozaki">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Web A/B Testing Simple Sample Size Calculator</h1>
+    <h2>Coursera Developing Data Products Peer Assignment</h2>
+    <p>hajozaki<br/>Coursera Student</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Objective
+
+<ul>
+<li>Provide GUI of power.prop.test as simple sample size calculator for non-tech digital marketer who has responsible Web A/B Testing exmeriments</li>
+</ul></li>
+<li>Business Notice
+
+<ul>
+<li>Digital Marketer use MDE(delta) either absolute or relative depend on  company or situation</li>
+<li>They can choose which MDE type for calculation</li>
+</ul></li>
+<li>Technical Notice
+
+<ul>
+<li>It use core feature of Shiny: <code>reactivity</code> for choosing MDE type </li>
+</ul></li>
+</ul>
+
+<p><em>GO to <a href="https://hajozaki.shinyapps.io/csr_ddp_pa">My Shiny App for PA</a></em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Problem - If you should support Digital Maketer</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>They often do not know the statistics</li>
+<li>They often can not use any statistics software</li>
+<li>They often hate CUI/CLI typing</li>
+</ul>
+
+<p><em>IF They have strong skill for debate and politics... :,(</em></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Solution - Shiniy App GUI</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>foo</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Sample Size calculation in R</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>foo</li>
+</ul>
+
+<pre><code class="r">base_cvr &lt;- .06; var_cvr &lt;- base_cvr + .01 ;sig_level &lt;- .05; pwr_level &lt;- .8
+ceiling(power.prop.test(
+    p1 = base_cvr, p2 = var_cvr, sig.level = sig_level, power = pwr_level)$n)
+</code></pre>
+
+<pre><code>## [1] 9540
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Problem - If you should support Digital Maketer'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Solution - Shiniy App GUI'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Sample Size calculation in R'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
