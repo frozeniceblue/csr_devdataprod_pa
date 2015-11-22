@@ -1,7 +1,15 @@
-library(shiny)
+#' welcome for my sandbox
+#' 
+#' FYI: Building your own server on VM for analytics and testing
+#' check it out building_data_analytics_env.md
 
+#----
+#' First Assigenment shiny ###
 #' Built in Examples
 #' 
+
+library(shiny)
+
 runExample("01_hello") # a histogram
 runExample("02_text") # tables and data frames
 runExample("03_reactivity") # a reactive expression
@@ -21,6 +29,17 @@ runExample("11_timer") # an automated timer
 runApp("shiny_app")
 
 
+#----
+#'  Second Assigenment slidify ###
+#' 
+#' prepare slidify
+#' 
+install.packages("devtools")
+library(devtools)
+install_github('slidify', 'ramnathv')
+install_github('slidifyLibraries', 'ramnathv')
 
 
+library(slidify)
 
+author("first_deck")

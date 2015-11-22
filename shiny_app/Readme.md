@@ -1,4 +1,4 @@
-It is my 1st submission of the Coursera Developing Data Products Peer Assignment.
+It is my submission of the Coursera Developing Data Products First Peer Assignment.
 
 It aim to provide GUI of `power.prop.test` as simple sample size calculator for non-tech digital marketer who has responsible Web A/B Testing exmeriments.
 
@@ -12,7 +12,7 @@ It aim to provide GUI of `power.prop.test` as simple sample size calculator for 
 *If you get the **Error** message instead of **Sample Size**. your inputs may be wrong and `power.prop.test` in R send error message. if you can, ask your support line with the error massage and notice them it is about error message of `power.prop.test` in R.*
 
 #### Technical Notice
-Its core feature of Shiny: **reactivity**. In `server.R`, a reactive called `var_cvr` is declared by radio box `MDE Type` in `ui.R`. Because, In business, user may use also **Relative** number for Minimum Detectable Effect (MDE ika delta).
+It use core feature of Shiny: **reactivity**. In `server.R`, a reactive called `var_cvr` is declared by radio box `MDE Type` in `ui.R`. Because, In business, user may use also **Relative** number for Minimum Detectable Effect (MDE ika delta).
 
 That the reactive expression depends on the input expression `input$base_cvr`, `input$mde`, and `input$mde_type` that it's used by them the output expression `output$sample_size` and `output$bar_chart`. Try changing the MDE (using **MDE type**) while looking at the reactive and then at the outputs; you will see first the reactive and then its dependencies flash. 
 
