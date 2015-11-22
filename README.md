@@ -5,7 +5,7 @@ Coursera Developing Data Products PA
 - Author: [@hajozaki](https://twitter.com/)
 
 ### Submissions - Web A/B Testing Simple Sample Size Calculator
-- [1st. Shiniy App on shinyapps.io]()
+- [1st. Shiniy App on shinyapps.io](https://hajozaki.shinyapps.io/csr_ddp_pa)
 - [2nd. Slidify Presentation on Rpubs]()
 
 ### Overview
@@ -38,16 +38,15 @@ Note: this section can only be filled out during the evaluation phase.
 Use this space to provide constructive feedback to the student who submitted the work. Point out the strengths of their application, and give them advice about how it could be improved in the future.
 **You need at least 10 more words**
 
-- [ ] Was there enough documentation on the shiny site for a user to get started using the application?
-- [ ] Did the application run as described in the documentation?
-- [ ] Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page?
-- [ ] Did server.R perform some calculations on the input in server.R?
-- [ ] Was the server calculation displayed in the html page?
-- [ ] Was the app substantively different than the very simple applications built in the class?
+- [x] Was there enough documentation on the shiny site for a user to get started using the application?
+- [x] Did the application run as described in the documentation?
+- [x] Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page?
+- [x] Did server.R perform some calculations on the input in server.R?
+- [x] Was the server calculation displayed in the html page?
+- [x] Was the app substantively different than the very simple applications built in the class?
  *Note, it's OK if the app is simple and based on the one presented in class, I just don't want it to be basically a carbon copy of the examples we covered. As an example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine.*
-- [ ] Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
-- [ ] If any of your grading decisions require explanation, please note your explanations here.
-You've written 0 words
+>- [ ] Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
+>- [ ] If any of your grading decisions require explanation, please note your explanations here.
 
 
 ### 2nd. Your Reproducible Pitch Presentation
