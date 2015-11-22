@@ -3,8 +3,8 @@ It is my 1st submission of the Coursera Developing Data Products Peer Assignment
 It aim to provide GUI of `power.prop.test` as simple sample size calculator for non-tech digital marketer who has responsible Web A/B Testing exmeriments.
 
 #### Usage
-1. Input **Baseline CVR**. It is your current CVR. **Input as a decimal, not percentage**.
-2. Input **Minimum Detectable Effect (MDE)**. It is the minimum relative change in conversion rate you would like to be able to detect. **Input as a decimal, not percentage**.
+1. Input **Baseline CVR**. It is your current CVR. *Input as a decimal, not percentage*.
+2. Input **Minimum Detectable Effect (MDE)**. It is the minimum relative change in conversion rate you would like to be able to detect. *Input as a decimal, not percentage*.
 3. Choose **MDE type**. It indicate your MDE is **Absolute** or **Relative**.
 4. Slide **Significance level α**. It indicate your Type I Error. If your do not know Type I Error, keep default value or ask your support line.
 5. Slide **Significance power 1−β**. It indicate your Type II Error. If your do not know Type II Error, keep default value or ask your support line.
