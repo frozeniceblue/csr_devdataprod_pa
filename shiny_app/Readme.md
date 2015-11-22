@@ -9,7 +9,7 @@ It aim to provide GUI of `power.prop.test` as simple sample size calculator for 
 4. Slide **Significance level α**. It indicate your Type I Error. If your do not know Type I Error, keep default value or ask your support line.
 5. Slide **Significance power 1−β**. It indicate your Type II Error. If your do not know Type II Error, keep default value or ask your support line.
 
-*If you get the **Error** message instead of **Sample Size**. your inputs may be wrong and `power.prop.test` in R send error message. if your can, ask your support line with the error massage and notice them it is about error message of `power.prop.test` in R.*
+*If you get the **Error** message instead of **Sample Size**. your inputs may be wrong and `power.prop.test` in R send error message. if you can, ask your support line with the error massage and notice them it is about error message of `power.prop.test` in R.*
 
 #### Technical Notice
 Its core feature of Shiny: **reactivity**. In `server.R`, a reactive called `var_cvr` is declared by radio box `MDE Type` in `ui.R`. Because, In business, user may use also **Relative** number for Minimum Detectable Effect (MDE ika delta).
