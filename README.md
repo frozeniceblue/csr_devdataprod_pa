@@ -45,6 +45,7 @@ Use this space to provide constructive feedback to the student who submitted the
 - [x] Was the server calculation displayed in the html page?
 - [x] Was the app substantively different than the very simple applications built in the class?
  *Note, it's OK if the app is simple and based on the one presented in class, I just don't want it to be basically a carbon copy of the examples we covered. As an example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine.*
+
 >- [ ] Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
 >- [ ] If any of your grading decisions require explanation, please note your explanations here.
 
