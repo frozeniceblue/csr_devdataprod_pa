@@ -5,8 +5,8 @@ Coursera Developing Data Products PA
 - Author: [@hajozaki](https://twitter.com/)
 
 ### Submissions - Web A/B Testing Simple Sample Size Calculator
-- [1st. Shiniy App on shinyapps.io](https://hajozaki.shinyapps.io/csr_ddp_pa)
-- [2nd. Slidify Presentation on Rpubs]()
+- [PA1. Shiniy App on shinyapps.io](https://hajozaki.shinyapps.io/csr_ddp_pa)
+- [PA2. Slidify Presentation on gh-pages](http://hajozaki.github.io/csr_devdataprod_pa/slidify_slides/#1)
 
 ### Overview
 
@@ -89,5 +89,5 @@ Rstudio presenter has a button to publish directly to Rpubs [https://support.rst
 - [ ] If any of your grading decisions require explanation, please note your explanations here.
 
 ### Appendix
-1. [shinyapps.io by RStudio](https://www.shinyapps.io/)
-2. [RPubs  brought to you by RStudio](http://rpubs.com/)
+* [shinyapps.io by RStudio](https://www.shinyapps.io/)
+* [Github Pages(gh-pages docs)](https://pages.github.com/)

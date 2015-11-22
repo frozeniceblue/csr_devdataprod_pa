@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/128959/8968f881c7544c89a816cd7c2d3d0ba7
+url: http://rpubs.com/hajozaki/128959
+when: 1448192565.67061
