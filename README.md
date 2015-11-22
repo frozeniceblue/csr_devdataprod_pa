@@ -4,7 +4,7 @@ Coursera Developing Data Products PA
 - Course Code: [devdataprod-034](https://class.coursera.org/devdataprod-034/human_grading/view/courses/975222/assessments/5/submissions)
 - Author: [@hajozaki](https://twitter.com/)
 
-### Submissions - Sample Size Calculatorfor Web A/B Testing
+### Submissions - Web A/B Testing Simple Sample Size Calculator
 - [1st. Shiniy App on shinyapps.io]()
 - [2nd. Slidify Presentation on Rpubs]()
 
