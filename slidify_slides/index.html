@@ -50,13 +50,13 @@
 <li>Objective
 
 <ul>
-<li>Provide GUI of power.prop.test as simple sample size calculator for non-tech digital marketer who has responsible Web A/B Testing exmeriments</li>
+<li>Provide GUI of <code>power.prop.test</code> in R as simple sample size calculator for non-tech digital marketer who has responsible Web A/B Testing exmeriments</li>
 </ul></li>
 <li>Business Notice
 
 <ul>
 <li>Digital Marketer use MDE(delta) either absolute or relative depend on  company or situation</li>
-<li>They can choose which MDE type for calculation</li>
+<li>They must be able to choose MDE type on App</li>
 </ul></li>
 <li>Technical Notice
 
@@ -65,7 +65,8 @@
 </ul></li>
 </ul>
 
-<p><em>GO to <a href="https://hajozaki.shinyapps.io/csr_ddp_pa">My Shiny App for PA</a></em></p>
+<p>GO to <a href="https://hajozaki.shinyapps.io/csr_ddp_pa">My Shiny App for PA</a><br>
+GO to <a href="https://github.com/hajozaki/csr_devdataprod_pa">My Github Repo for PA</a>  </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -79,7 +80,7 @@
     <ul>
 <li>They often do not know the statistics</li>
 <li>They often can not use any statistics software</li>
-<li>They often hate CUI/CLI typing</li>
+<li>They often hate typing on CUI/CLI</li>
 </ul>
 
 <p><em>IF They have strong skill for debate and politics... :,(</em></p>
@@ -90,12 +91,21 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Solution - Shiniy App GUI</h2>
+    <h2>Solution - Shiniy GUI App</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>foo</li>
+<li>Easy to use for Digital Maketer - input only three items</li>
+<li>Easy to suport for us - same as <code>power.prop.test</code> in R</li>
+<li>It use core feature of Shiny: <code>reactivity</code> for choosing MDE type(<code>input$mde_type</code>)</li>
 </ul>
+
+<div style='text-align: center;'>
+    <img height='375' width='606'
+        src='./assets/img/screenshot01.png' alt='Annotated ScreenShot'/>
+</div>
+
+<p><a href="https://hajozaki.shinyapps.io/csr_ddp_pa">Web A/B Testing Simple Sample Size Calculator on shiniyapps.io</a></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -107,7 +117,7 @@
   </hgroup>
   <article data-timings="">
     <ul>
-<li>foo</li>
+<li>Previous Slide&#39;s Screen Shot(Default Parameters) same as below the code in R</li>
 </ul>
 
 <pre><code class="r">base_cvr &lt;- .06; var_cvr &lt;- base_cvr + .01 ;sig_level &lt;- .05; pwr_level &lt;- .8
@@ -117,6 +127,18 @@ ceiling(power.prop.test(
 
 <pre><code>## [1] 9540
 </code></pre>
+
+<p></br></p>
+
+<h3>Thank you for your evaluation!</h3>
+
+<p>I deploied <code>showcase</code> mode and MIT License. Feel free try to examine, use, and customize it for your user.</p>
+
+<ul>
+<li><a href="https://github.com/hajozaki/csr_devdataprod_pa">Github repo</a></li>
+</ul>
+
+<p>Any Quiestion? Please mension at <a href="https://twitter.com/hajozaki">Twitter</a>.</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -140,7 +162,7 @@ ceiling(power.prop.test(
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Solution - Shiniy App GUI'>
+        data-slide=3 title='Solution - Shiniy GUI App'>
          3
       </a>
     </li>
